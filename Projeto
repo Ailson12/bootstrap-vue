@@ -1,0 +1,52 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""""""Parte Publica""""""""""""""""""""""""""""""""""""""""""""""""""""":
+    -> navbar: HOME | A CASA | CARDAPIO | EVENTOS | DELIVERY | CONTATO
+->HOME: Carrosel com tres imagens. com texto de boas vindas. promocao e veja o nosso cardapio
+        mais a baixo tem uma imagem com um texto do lado e um botao para o cardapio
+        mais a baixo uma imagem do local com um texto "Faça seu evento conosco"
+        mais a baixo um fundo com imagem e um texto para fazer reserva e um botao para fazer a reserva
+        mais a baixo uma secao com titulo 'A História do Chip's Burger'
+
+->A CASA: "Conheça o Chip's Burger" descrição da lanchonete, depois um titulo 'Servico' com nome da lanchonete, endereço e telefones
+        abaixo da descrição tem uma secao "Gostou da nossa história? Conheça agora nosso Cardapio!"
+
+->CARDAPIO: 7 botoes, nomes: "Entradas e saladas", "Lanches Especiais", "Burgers do chefe", "Lanches Tradicionais",
+            "Cervejas Premium", "Bebidas em Geral", "Sobremesas"
+
+->EVENTOS: uma seção com o text "Faça seu evento conosco!" e um formulario com o titulo "Preencha o formulário de interesse" e uma imagem ao lado
+            campos do formulario "nome", "email", "Telefone", "Descreva sua necessidade, data, horario e quantidade de pessoas"
+            abaixo uma secao com o texto "Agradecemos a preferência! Aproveite muito!"
+
+->DELIVERY: uma seção com o text "Peça seu lanche em casa!" vamos dar a ele a opção de escolher pelo numero ou pelo delivery(Faça seu pedido aqui)
+            abaixo temos uma secao com esse texto 'Agradecemos a preferência! Aproveite muito!'
+
+->CONTATO: uma seção com o text "Faça sua confraternização, festa de encerramento ou amigo secreto conosco"
+            abaixo uma seção com o seguinte texto "Utilize nosso formulário ou os nossos canais de comunicação abaixo:
+            Dispomos de diversos canais para você tirar suas dúvidas, fazer críticas ou elogios. Responderemos o seu contato o mais rápido possivel."
+            abaixo do texto colocamos 4 icones de Endereço, E-mail, Telefone, Horário de Atendimento com os respectivos valores
+            abaixo tem uma seção com a localização da lanchoente no gmail
+            abaixo mais uma seção com o text "Obrigado pela mensagem Agradecemos pelo contato!"
+
+->CHAT DO WHATSSAP QUE REDIRECIONA PARA O WHATSSAP
+
+->RODAPE:  um footer com o text "todos os direitos reservados" e icones para facebook e instagran
+
+->FIDELIDADE: uma ideia, a gente pode criar um botao de cadastro com o email, dando a ele 10% de desconto,
+            e em troca utilizarmos o email pra fazer remarket
+
+->FAVICON DE HAMBURGUER
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" PARTE ADMIN """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+CARDAPIO: 
+    COMIDA: Aqui vai ser um crud de de comida, aonde o admin vai poder cadastrar: ['nome', 'descricao', 'foto', 'categoria', 'preco']
+    BEBIDA: Aqui vai ser um crud de bebidas, aonde o admin vai poder cadastrar: ['nome', 'preco', 'foto', 'categoria']
+
+NOTIFICAÇÃO: Aqui a genter vai criar um campo chamado 'pedidos' informar ao admin os pedidos socilicitados e informar qual o endereço.
+            essa notificação vai vim do banco de dados e por sms.
+
+->CRIAR CUPOM DE DESCONTO: um input para criar o cupom e quanto ele quer dar de desconto
+
+->CARRINHO: criar um crud basico de carrinho
+
+->INTEGRAÇÃO AO METODO DE PAGAMENTO "PAGAR-ME"
